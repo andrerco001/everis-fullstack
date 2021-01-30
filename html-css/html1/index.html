@@ -2,35 +2,48 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Postfriendly</title>
     </head>
     <body>
         <header>
-            <img src="./img/logo.jpeg" alt="Logo of this site" style="height: 100px; width: 100px;">
-            <h1>Postfriendly</h1>
+            <img id="logo" src="./img/logo.jpeg" alt="Logo of this site">
+            <h1 id="title">Postfriendly</h1>
         </header>
         <section>
             <header>
-                <h2>Posts list</h2>
+                <h2 class="subtitle">Posts list</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
-                    <img src="./img/html-code.jpg" alt="Background" style="height: 200px; width: 700px;">
+                    <h3 class="post-title">Post #1</h3>
+                    <img class="post-img" src="./img/html-code.jpg" alt="Background">
                 </header>
-                <p style="width: 700px;">
+                <p class="post-content">
                     <a href="https://www.lipsum.com/" target="_blank">Lorem Ipsum</a> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
                     with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
                     versions of Lorem Ipsum.
                 </p>
-                
+            </article>
+            <article class="post">
+                <header>
+                    <h3 class="post-title">Post #2</h3>
+                    <img class="post-img" src="./img/html-code.jpg" alt="Background">
+                </header>
+                <p class="post-content">
+                    <a href="https://www.lipsum.com/" target="_blank">Lorem Ipsum</a> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </p>
             </article>
         </section>
         <footer>
-            All rights reserved André Oliveira
-            <ul>
+            <p id="copy-right">All rights reserved André Oliveira</p>
+            <ul class="contact-list">
                 Contact
                 <li><a href="mailto:andrerco002@gmail.com">andrerco002@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/andre-oliveira-am/" target="_blank">LinkedIn</a></li>
